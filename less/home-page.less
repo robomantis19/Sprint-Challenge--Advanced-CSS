@@ -1,7 +1,41 @@
 // Home Content
 
 .home {
-
+  @media @phone{
+    p{
+      font-size: 2.2rem;
+    }
+    h2{
+      font-size: 5rem;
+    }
+    h3{
+      font-size: 4rem;
+    }
+  }
+  header{
+    height: 70vh;
+    .SpaceImg{
+      border-radius: .6rem;
+      @media @phone{
+        margin-left: 2%;
+        width: 95%;
+        height: 25vh;
+        
+        
+      }
+    }
+    @media @phone{
+      height: 80vh;
+    }
+    .myHeader{
+      @media @phone{
+        margin-top: -5%;
+        
+      }
+    }
+    
+    
+  }
   .intro {
 
     h2 {
@@ -18,13 +52,22 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @phone{
+      display: flex;
+      flex-direction: column;
+    }
+    
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media @phone{
+        width: 95%;
+      }
     }
+    
   }
 
   .visit-planets {
@@ -45,6 +88,11 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media @phone{
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0 5%;
+    }
 
     .walk-text {
       width: 50%;
@@ -56,14 +104,46 @@
       p {
         margin-bottom: 26px;
       }
+      @media @phone{
+        width: 100%;
+        padding-top: 5%;
+      }
 
       .btn {
+        height: 14%;
+        width: 30%;
+        background-color: darken(navy, 15%);
+        align-text: center;
+        padding-left: 5%;
+        padding-top: 3%;
+        
+        font-weight: bold;
+        color: white;
+        .button(1.8rem, .6rem);
+
+        &:Hover{
+          background-color: #8B4513;
+          color: #B8860B;
+        }
+        @media @phone{
+          height: 40%;
+          width: 100%;
+          padding-bottom: 10%;
+          padding-top: 10%;
+          text-align: center;
+          font-size: 3rem;
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @phone{
+        width: 100%;
+        margin-left: 0;
+        padding-top: 10%;
+      }
       
       img {
         width: 100%;

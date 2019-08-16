@@ -1,1 +1,19 @@
 // Mixins Here
+
+.displayCenter(){
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.displayColumn(){
+    display: flex;
+    flex-direction: column;
+}
+
+.button(@size, @border){
+    font-size: @size;
+    border-radius: @border;
+
+}
