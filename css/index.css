@@ -160,6 +160,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.myNav {
+  width: 120%;
+  margin-left: -10%;
+  margin-top: 2%;
+  height: 30%;
+  background: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.myNav h1 {
+  height: 50%;
+  font-size: 4rem ;
+}
+nav {
+  width: 60%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: grey;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +197,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home header {
+  height: 70vh;
+}
+.home header .SpaceImg {
+  border-radius: 0.6rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +245,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  height: 14%;
+  width: 30%;
+  background-color: #000034;
+  align-text: center;
+  padding-left: 5%;
+  padding-top: 3%;
+  font-weight: bold;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 0.6rem;
+}
+.home .walk .walk-text .btn:Hover {
+  background-color: #8B4513;
+  color: #B8860B;
 }
 .home .walk .walk-img {
   width: 46%;
