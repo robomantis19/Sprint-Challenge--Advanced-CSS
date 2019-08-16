@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive website changes to everything, while adaptive to specific parameters.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+To put mobile cell phones at the top of your priority
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+it multiplies the value.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing compiles to css.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I really like mixins because you its more functional.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
